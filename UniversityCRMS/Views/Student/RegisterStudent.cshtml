@@ -1,0 +1,162 @@
+﻿@model UniversityCRMS.Models.Student
+
+@{
+    ViewBag.Title = "RegisterStudent";
+    Layout = "~/Views/Shared/UniversityLayoutPage.cshtml";
+}
+
+<h2>Register Student</h2>
+
+@using (Html.BeginForm(null,null,FormMethod.Post, new { id = "register" })) 
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Student</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Contact No</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ContactNo, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ContactNo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control",@readonly = "readonly", @value = @DateTime.Now.Date} })*@
+
+                <input class="form-control col-md-10" type="text" name="Date" id="Date" value="@DateTime.Now.ToString("yyyy/MM/dd")" />
+                @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.DepartmentId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(d => d.DepartmentId, new SelectList(ViewBag.Departments, "Code", "Name"), "--select--", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.DepartmentId, "", new { @class = "text-danger" })
+</div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Register" class="btn btn-default"/>
+                @ViewBag.Result
+            </div>
+        </div>
+        @if (Model != null)
+        {
+            <div>
+                <h3>Registration Succesfull</h3>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Name)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Email)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.ContactNo)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.ContactNo)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Date)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Address)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Address)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.DepartmentId)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.DepartmentId)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.RegistrationNo)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.RegistrationNo)
+                    </dd>
+
+                </dl>
+            </div>
+        }
+
+    </div>
+}
+@section style{
+    
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+}
+
+@section Scripts {
+@Scripts.Render("~/bundles/jqueryval")
+
+<script src="~/Scripts/jquery-ui-1.12.0.js"></script>
+        <script>
+            
+            $(document).ready(function() {
+                $("#Date").datepicker({ dateFormat: 'yy/mm/dd' });
+
+                $("#register").SUBMIT(function () {
+
+                    $('#register').reset();
+
+                });
+
+            });
+        </script>
+    }
+

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - University Application</title>
+    @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("style", required: false)
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("Home", "Index", "Department", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Save Dept", "SaveDepartment", "Department")</li>
+                <li>@Html.ActionLink("Departments", "ViewDepartment", "Department")</li>
+                <li>@Html.ActionLink("Courses", "CourseDetails", "Department")</li>
+                <li>@Html.ActionLink("Save Course", "SaveCourse", "Course")</li>
+                <li>@Html.ActionLink("Save Teacher", "SaveTeacher", "Teacher")</li>
+                <li>@Html.ActionLink("Assign Course", "AssignCourse", "Teacher")</li>
+                <li>@Html.ActionLink("Register Student", "RegisterStudent", "Student")</li>
+                <li>@Html.ActionLink("Student Enroll", "Enrollment", "Student")</li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
+<div class="container body-content">
+    @RenderBody()
+    <hr />
+    <footer>
+        <p>&copy; @DateTime.Now.Year - University Course & Result Managment System</p>
+    </footer>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+</body>
+</html>

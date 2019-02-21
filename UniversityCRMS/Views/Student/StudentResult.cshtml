@@ -1,0 +1,156 @@
+﻿@using UniversityCRMS.Models
+@model UniversityCRMS.Models.Student
+
+@{
+    ViewBag.Title = "Enrollment";
+    Layout = "~/Views/Shared/UniversityLayoutPage.cshtml";
+    List<Student> StudentReg = ViewBag.StudentReg;
+    List<Course> Courses = ViewBag.Courses;
+}
+
+<h2>Student Enrollment</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4></h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <table class="table">
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.RegistrationNo, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(d => d.RegistrationNo, new SelectList(StudentReg, "Id","RegistrationNo"), "<--select Student-->", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DepartmentId, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.DepartmentId, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Course, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(d => d.Course, new SelectList(""), "<--select Course-->", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Course, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Grade, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(d => d.Grade, new SelectList(@ViewBag.Grades), "<--select Grade-->", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Grade, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Enroll" class="btn btn-default" />
+                @ViewBag.Result
+            </div>
+        </div>
+    </div>
+}
+
+
+@section style{
+
+    <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+}
+
+@section Scripts
+{
+
+    <script src="~/Scripts/jquery-ui-1.12.0.js"></script>
+
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function() {
+            $("#RegistrationNo").change(function () {
+                var dept;
+                var regNo = $("#RegistrationNo").val();
+                var json = { RegistrationNo: regNo };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("StudentDetails", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function (result) {
+                                $('#Name').val(result.Name);
+                                $('#Email').val(result.Email);
+                                dept=$('#DepartmentId').val(result.DepartmentId);
+                    }
+                });
+
+                $("#Course").empty();
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("ShowAvaiableCourse", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function (result) {
+                        $('#Course').append('<option value="">--select course--</option>');
+                        $.each(result,
+                            function (key, value) {
+                                $('#Course').append('<option value="' + value.Code + '">' + value.Code + '</option>');
+                            });
+                    }
+                });
+            });
+
+            //Date picker
+            $("#Date").datepicker({ dateFormat: 'dd/mm/yy' });
+        });
+
+    </script>
+}

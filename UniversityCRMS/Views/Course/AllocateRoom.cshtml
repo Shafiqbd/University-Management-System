@@ -1,0 +1,169 @@
+﻿@model UniversityCRMS.Models.AllocateRoom
+
+@{
+    ViewBag.Title = "Allocate Room";
+    Layout = "~/Views/Shared/UniversityLayoutPage.cshtml";
+}
+
+<h2>Allocate Room</h2>
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "AllocateForm" })) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <table class="table">
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(c => c.Department, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(d => d.Department, new SelectList(ViewBag.Departments, "Code", "Name"), "--select dept--", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Department, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(c => c.Course, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(m => m.Course, new SelectList(""), "--select course--", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Course, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Room No</label>
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.Rooms, new SelectList(ViewBag.Rooms, "RoomNO", "Name"), "--select room--", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Rooms, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Day, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            <select name="Day" id="Day" class="form-control">
+                                <option>--select day--</option>
+                                <option value="Sat">Saturday</option>
+                                <option value="Sun">Sunday</option>
+                                <option value="Mon">Monday</option>
+                                <option value="Tue">Tuesday</option>
+                                <option value="Wed">Wednesday</option>
+                                <option value="Thur">Thursday</option>
+                                <option value="Fri">Friday</option>
+                            </select>
+                            @Html.ValidationMessageFor(model => model.Day, "", new { @class = "text-danger" })
+                        </div>
+                        
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">From</label>
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.TimeFrom, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.TimeFrom, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">To</label>
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.TimeTo, new { htmlAttributes = new { @class = "form-control"  } })
+                            @Html.ValidationMessageFor(model => model.TimeTo, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Allocate" class="btn btn-default" onclick="Compare()"/>
+                    @ViewBag.Result
+                </div>
+            </div>
+    </div>
+}
+@section style
+{
+    <link href="~/Content/jquery-timepicker.min.css" rel="stylesheet" />
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+<script src="~/Scripts/jquery-timepicker.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //$("#AllocateForm").validate({
+            //    rules: {
+            //        Day: "required"
+            //    },
+            //    messages: {
+            //        Day: "Please enter department name"
+            //    }
+            //});
+
+            $("#Department").change(function () {
+                var deptId = $("#Department").val();
+                $("#Course").empty();
+                $('#Course').append('<option value="">--select course--</option>');
+                var json = { Code: deptId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetAllCourse", "Course")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function (result) {
+                        $.each(result,
+                            function (key, value) {
+                                $('#Course').append('<option value="' + value.Code + '">' + value.Name + '</option>');
+                            });
+                    }
+                });
+            });
+                
+
+            //time picker
+            $('#TimeFrom').timepicker({
+                'minTime': '08:00am',
+                'maxTime': '9:00pm',
+                'timeFormat': 'h:i A',
+                'step': 60,
+                'disableTimeRanges': [['01:00pm', '02:00pm']]
+            });
+            $('#TimeTo').timepicker({
+                'minTime': '09:00am',
+                'maxTime': '10:00pm',
+                'timeFormat': 'h:i A',
+                'step': 60,
+                'disableTimeRanges': [['01:30pm', '02:30pm']]
+            });
+        });
+    </script>
+
+}

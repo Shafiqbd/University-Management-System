@@ -1,0 +1,36 @@
+﻿@using UniversityCRMS.Models
+@model List<Department>
+@{
+    Layout = "~/Views/Shared/UniversityLayoutPage.cshtml";
+    ViewBag.Title = "Departments";
+}
+
+<h2>Departments</h2>
+<hr/>
+<div id="dvContainer">
+    <fieldset>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (Department dept in Model)
+            {
+                <tr>
+                    <td>@dept.Code</td>
+                    <td>@dept.Name</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </fieldset>
+</div>
+
+@section scripts
+{
+     @Scripts.Render("~/bundles/jqueryval")
+
+}

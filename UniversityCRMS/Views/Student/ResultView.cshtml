@@ -1,0 +1,176 @@
+﻿@using UniversityCRMS.Models
+@model UniversityCRMS.Models.Student
+
+@{
+    ViewBag.Title = "Enrollment";
+    Layout = "~/Views/Shared/UniversityLayoutPage.cshtml";
+    List<Student> StudentReg = ViewBag.StudentReg;
+    List<Course> Courses = ViewBag.Courses;
+}
+
+<h2>Student Results</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div id="pdf">
+        <div class="form-horizontal">
+            <h4></h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <table class="table">
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.RegistrationNo, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.DropDownListFor(d => d.RegistrationNo, new SelectList(StudentReg, "Id", "RegistrationNo"), "<--select Student-->", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DepartmentId, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.DepartmentId, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button type="button" name="btnPrint" id="btnPrint" class="btn btn-default">Make PDF</button>
+                </div>
+            </div>
+
+        </div>
+
+        <table id ="info" class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Course)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CourseName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Grade)
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="Course"></tbody>
+
+
+        </table>
+    </div>
+}
+
+
+@section style{
+
+    <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+}
+
+@section Scripts
+{
+
+    <script src="~/Scripts/jquery-ui-1.12.0.js"></script>
+
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+<script src="~/Scripts/jspdf.js"></script>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<script type="text/javascript">
+
+        $("#btnPrint").live("click", function () {
+            var divContents = $("#pdf").html();
+            var printWindow = window.open('', '', 'height=400,width=800' );
+            printWindow.document.write('<html><head><title>Student Details</title>');
+            //printWindow.document.write('<link rel="stylesheet" href="~/Content/bootstrap.min.css" />');
+            printWindow.document.write('</head><body style="font-size: 30px">');
+            printWindow.document.write(divContents);
+            printWindow.document.write('</body></html>');
+            printWindow.document.close();
+            printWindow.print();
+        });
+</script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $("#RegistrationNo").change(function () {
+                var dept;
+                var regNo = $("#RegistrationNo").val();
+                var json = { RegistrationNo: regNo };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("StudentDetails", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function (result) {
+                                $('#Name').val(result.Name);
+                                $('#Email').val(result.Email);
+                                dept=$('#DepartmentId').val(result.DepartmentId);
+                    }
+                });
+
+                $("#Course").empty();
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("ShowAvaiableCourseResult", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function (result) {
+                        $.each(result,
+                            function (key, value) {
+                                $('#Course').append('<tr><td>' + value.Code + '</td><td>' + value.Name + '</td><td>' + value.Grade + '</td></tr>');
+                            });
+                    }
+                });
+            });
+
+            //Date picker
+            $("#Date").datepicker({ dateFormat: 'dd/mm/yy' });
+        });
+
+
+
+    </script>
+}

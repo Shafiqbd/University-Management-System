@@ -1,0 +1,73 @@
+﻿@using UniversityCRMS.Models
+@model IEnumerable<UniversityCRMS.Models.Schedule>
+
+@{
+    ViewBag.Title = "ScheduleRoom";
+    Layout = "~/Views/Shared/UniversityLayoutPage.cshtml";
+    List<Department> departments = ViewBag.Departments;
+}
+
+<h2>Schedule</h2>
+
+<table class="table">
+<tr>
+    <td class="control-label col-md-2"><label for="Department" style="font-size: 25px">Department</label></td>
+    <td>
+        <select class="form-control col-md-2" id="Department" name="Department">
+            <option value="">Select Department</option>
+            @foreach (Department department in departments)
+            {
+                <option value="@department.Code">@department.Name</option>
+            }
+        </select>
+    </td>
+</tr>
+</table>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CouseCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th style="width: 247px">
+                @Html.DisplayNameFor(model => model.SeheduleInfo)
+            </th>
+        </tr>
+    </thead>
+    <tbody id="schedule"></tbody>
+
+
+</table>
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function() {
+            $("#Department").change(function() {
+                var deptId = $("#Department").val();
+                $("#schedule").empty();
+                var json = { Code: deptId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("Schedule", "Course")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function (result) {
+                        $.each(result,
+                            function (key, value) {
+                                $('#schedule').append('<tr><td>' + value.CouseCode + '</td><td>' + value.Name + '</td><td>' + value.SeheduleInfo + '</td><td>');
+                            });
+                    }
+                });
+
+        });
+    });
+
+    </script>
+
+}

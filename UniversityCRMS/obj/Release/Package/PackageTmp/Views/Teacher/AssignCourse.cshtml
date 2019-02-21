@@ -1,0 +1,202 @@
+﻿@using UniversityCRMS.Models
+@model AssignCourse
+@{
+    ViewBag.Title = "AssignCourse";
+    Layout = "~/Views/Shared/UniversityLayoutPage.cshtml";
+}
+
+<h2>Course Assign to Teacher</h2>
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "assignCourseForm" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr/>
+        @Html.ValidationSummary(true, "", new {@class = "text-danger"})
+        <table class="table">
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(c => c.Departments, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(d => d.Departments, new SelectList(ViewBag.Departments, "Code", "Name"), "--select dept--",  new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Departments, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(c => c.Teacher, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                           @Html.DropDownListFor(d => d.Teacher, new SelectList(""), "select", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Teacher, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Credit to be taken</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" id="creditToBeTaken" name="creditToBeTaken" readonly="readonly">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Remaining Credit</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" id="RemainingCredit" name="RemainingCredit" readonly="readonly">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        @Html.LabelFor(c => c.Course, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(m=> m.Course, new SelectList(""), "select", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Course, "", new { @class = "text-danger" })
+                            
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Course Name</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" id="Name" name="Name" readonly="readonly">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Credit</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" id="Credit" name="Credit" readonly="readonly">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" id="save" class="btn btn-default" />
+            </div>
+        </div>
+
+        @ViewBag.Result
+    </div>
+}
+
+@section scripts
+{
+@Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            $("#save").click(function () {
+
+                var remainingCredit = $('#RemainingCredit').val() - $('#Credit').val();
+                if (remainingCredit <= 0) {
+                    var key = confirm("Credit exceeds limit. Do you want to submit?");
+                    if (key == true) {
+                        return $("#assignCourseForm").submit();
+                    } else {
+                        return alert("Canceled");
+                    }
+                }
+                return $("#assignCourseForm").submit();
+            });
+
+
+
+            $("#Departments").change(function() {
+                var deptId = $("#Departments").val();
+                $("#Teacher").empty();
+                $('#Teacher').append('<option value="">--select teacher--</option>');
+                var json = { Code: deptId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("ShowTeacher", "Teacher")',
+                    //url: '/Department/GetStudentsByDepartmentId',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function(result) {
+                      
+                        $.each(result,
+                            function(key, value) {
+                                $('#Teacher').append('<option value="' + value.ID + '">' + value.Name + '</option>');
+                            });
+                    }
+                });
+
+
+                $("#Course").empty();
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("ShowCourse", "Teacher")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function(result) {
+                        $('#Course').append('<option value="">--select course--</option>');
+                        $.each(result,
+                            function(key, value) {
+                                $('#Course').append('<option value="' + value.Code + '">' + value.Code + '</option>');
+                            });
+                    }
+                });
+            });
+
+            $("#Teacher").change(function () {
+                var teacherId = $("#Teacher").val();
+                var json = { Id: teacherId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("DetailsTeacher", "Teacher")',
+                    //url: '/Department/GetStudentsByDepartmentId',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function (result) {
+                        $('#creditToBeTaken').val(result.CreditToBeTaken);
+                        $('#RemainingCredit').val(result.RemainingCredit);
+                    }
+                });
+            });
+            $("#Course").change(function () {
+                var courseId = $("#Course").val();
+                var json = { Code: courseId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("DetailsCourse", "Teacher")',
+                    //url: '/Department/GetStudentsByDepartmentId',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+
+                    success: function (result) {
+                        $('#Name').val(result.Name);
+                        $('#Credit').val(result.Credit);
+                    }
+                });
+            });
+
+        });
+    </script>
+
+}

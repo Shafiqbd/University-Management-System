@@ -1,0 +1,656 @@
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\ApplicationInsights.config
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\csc.exe
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Collections.Immutable.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\vbc.exe
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe.config
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll.config
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.pdb
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\EntityFramework.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Web.Infrastructure.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Owin.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\WebGrease.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.pdb
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\EntityFramework.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project-02\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.csprojResolveAssemblyReference.cache
+D:\Project-02\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.dll
+D:\Project-02\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.pdb
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\ApplicationInsights.config
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\csc.exe
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\vbc.exe
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll.config
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.pdb
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Owin.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\WebGrease.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.pdb
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.csprojResolveAssemblyReference.cache
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.dll
+C:\Users\RAKIB\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.pdb
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\ApplicationInsights.config
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\csc.exe
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Collections.Immutable.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\vbc.exe
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe.config
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll.config
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.pdb
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\EntityFramework.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Web.Infrastructure.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Owin.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\WebGrease.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.pdb
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\EntityFramework.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.csprojResolveAssemblyReference.cache
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.dll
+D:\Project-02\Robiul\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.pdb
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\ApplicationInsights.config
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\csc.exe
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Collections.Immutable.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\vbc.exe
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe.config
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll.config
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.pdb
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\EntityFramework.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Web.Infrastructure.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Owin.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\WebGrease.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.pdb
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\EntityFramework.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.csprojResolveAssemblyReference.cache
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.dll
+D:\Project-02\Sayed\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.pdb
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\ApplicationInsights.config
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\csc.exe
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\vbc.exe
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll.config
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.pdb
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Owin.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\WebGrease.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.pdb
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.csprojResolveAssemblyReference.cache
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.dll
+C:\Users\sayed\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.pdb
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\ApplicationInsights.config
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\csc.exe
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\vbc.exe
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll.config
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.pdb
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\EntityFramework.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Owin.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\WebGrease.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.pdb
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\EntityFramework.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.csprojResolveAssemblyReference.cache
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.dll
+C:\Users\sayed\Desktop\New folder\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.pdb
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\ApplicationInsights.config
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\csc.exe
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\vbc.exe
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll.config
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.pdb
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Owin.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\WebGrease.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.pdb
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.csprojResolveAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.dll
+C:\Users\Web App Develop .Net\Desktop\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.pdb
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\ApplicationInsights.config
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\csc.exe
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\vbc.exe
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll.config
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\UniversityCRMS.pdb
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\EntityFramework.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Owin.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\WebGrease.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.Web.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.Helpers.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.Mvc.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.Optimization.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.Razor.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Antlr3.Runtime.pdb
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Newtonsoft.Json.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\EntityFramework.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.csprojResolveAssemblyReference.cache
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.dll
+C:\Users\Trainer-403\Desktop\.NET Classes\Batch 59\Final Project Presentation\ZERO.net\UniversityCRMS\UniversityCRMS\obj\Debug\UniversityCRMS.pdb
